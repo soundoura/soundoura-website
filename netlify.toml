@@ -1,7 +1,6 @@
 [build]
   publish = "."
   functions = "functions"
-  # НЯМА COMMAND ТУК! Остави празно или изтрии реда
 
 [[redirects]]
   from = "/*"
