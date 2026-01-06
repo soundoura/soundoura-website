@@ -4,7 +4,7 @@
   "description": "SOUNDOURA Web3 Music Streaming Platform",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'Static site - no build required'"
+    "build": "echo 'Static site - no build required' && exit 0"
   },
   "engines": {
     "node": "18.x"
