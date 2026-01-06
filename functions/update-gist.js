@@ -1,5 +1,5 @@
-// Netlify Functions има вградена fetch в Node.js 18+
-// Не се нуждаем от node-fetch package
+// Use native fetch in Netlify Functions
+const fetch = global.fetch || require('node-fetch');
 
 exports.handler = async function(event, context) {
   if (event.httpMethod !== 'POST') {
